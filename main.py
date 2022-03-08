@@ -59,7 +59,7 @@ while run:
     screen.blit(textsurface1,(0,0))
     
     textsurface2 = myfont.render('тыкнуто раз: {0}'.format(score), False, (0, 0, 0))
-    screen.blit(textsurface2,(0,460))
+    screen.blit(textsurface2,(0,430))
     
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
